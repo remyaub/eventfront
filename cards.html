@@ -25,7 +25,9 @@
   </head>
   <body class="align-items-center">
         <div class="d-flex flex-column align-items-center card-list">
-                <h1>ALL CARDS</h1><br>
+	  <div class="col-7 d-flex flex-column align-items-center">
+	  <div class="d-flex">
+	  <div class="d-flex flex-column justify-content-between">
         <div class="card text-white bg-primary mb-3">
             <div class="card-header">Event</div>
             <div class="card-body">
@@ -34,25 +36,29 @@
                 <p class="card-text">Location: Marseille</p>
                 <p class="card-text">Price: $20</p>
             </div>
-        </div>
-        <div class="card text-white bg-primary mb-3">
+        </div><div class="d-flex justify-content-between d-flex align-items-center">
+		 <div class="w-100 h-100 d-flex justify-content-between align-items-center"><div class="cardtitle mx-auto">CARDS</div></div>
+        <div class="card align-self-end text-white bg-primary mb-3 col-4 p-0">
                 <div class="card-header">Profile</div>
                 <div class="card-body">
                     <h4 class="card-title">Alice Hertz</h4>
                     <p class="card-text">Description: Hey! I'am Alice. </p>
                     <p class="card-text">email: alice@hertz.com</p>
                 </div>
-            </div>
+</div>
+        </div>
+	</div>
             <div class="card text-white bg-primary mb-3">
-                    <div class="card-header">City</div>
-                    <div class="card-body">
-                        <h4 class="card-title">Berlin</h4>
-                        <p class="card-text">3,7 millions</p>
-                        <p class="card-text">Location: Germany</p>
+                    <div class="card-header cityhdr text-center"><h2>City</h2></div>
+                    <div class="card-body d-flex flex-column justify-content-between">
+		     <div> <h4 class="card-title">Berlin</h4>
+                        <p class="card-text">3,7 millions</p></div><div>
+                        <p class="card-text">Location: Germany</p></div>
                     </div>
-                </div>
-                <div class="mb-3 d-flex comment">
-                        <div class="card-body justify-content-between">
+            </div>
+	    </div>
+                 <div class="mb-3 d-flex comment">
+                        <div class="card-body d-flex flex-column justify-content-between">
                         <h3 class="">Josh Thunderbeef</h3>
                           <p class="">à propos d'@event</p>
                           <p class="card-subtitle text-muted">2019-12-03 12:43</p>
@@ -60,20 +66,15 @@
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item">Cras justo odio</li>
-                          <li class="list-group-item">Dapibus ac facilisis in</li>
-                          <li class="list-group-item">Vestibulum at eros</li>
-                        </ul>
-                        <div class="card-body">
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
+                        <div  style="background-color: #868e96;" class="card-footer text-muted d-flex flex-column justify-content-between align-items-center">
+                          <div><p> 2 days ago</p></div>
+			  <div><a href="#" style="color:#abb6c2;">some link</a></div>
                         </div>
-                        <div class="card-footer text-muted">
-                          2 days ago
+ <div class="card-body col-1 badge-primary">
                         </div>
                       </div>
-            </div>
+          </div>
+	  </div>
 
       <div class="card-list"> 
       <div class="card text-white bg-primary mb-4 col-3 mx-3 p-0">
