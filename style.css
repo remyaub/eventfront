@@ -13,8 +13,12 @@ border-top: 3px solid #DF691A;
 
 .cardtitle {
 	text-align: center;
-	letter-spacing: 4px;
-	font-size: 3em;
+	letter-spacing: 5px;
+	font-size: 3.5em;
+}
+.cardtitle-sm {
+	letter-spacing: 2px;
+	font-size: 1.4em;
 }
 
 .card-list {
@@ -33,6 +37,20 @@ border-top: 3px solid #DF691A;
     background-size: cover;
     background-position-x: center;
 }
+.maxw-30 {
+max-width: 30%;
+}
+
+.smallbutton {
+	border-radius: 7% / 20%;
+	font-size: 0.6em;
+}
+
+.smallbutton:hover {
+	background-color: #DF691A;
+	color: #fff;
+}
+	
 
 #mainban h1 {
     font-size: 6em;
@@ -4559,6 +4577,7 @@ border-top: 3px solid #DF691A;
            align-items: center;
  }
  
+
  .navbar-toggler {
    padding: 0.25rem 0.75rem;
    font-size: 1.25rem;
